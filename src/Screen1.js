@@ -42,9 +42,10 @@ function Screen1() {
         <span className="p-input-icon-left">
           <i className="pi pi-search" />
           <InputText
+           style={{marginRight:'500px',borderRadius:'20px'}}
             value={globalFilterValue}
             onChange={onGlobalFilterChange}
-            placeholder="Keyword Search"
+            placeholder=" Search hear"
           />
         </span>
       </div>
@@ -55,8 +56,9 @@ function Screen1() {
 
   return (
     <div className="card">
-      <h1>Screen1 Pagination</h1>
+      <h1 style={{textAlign:'center',color:'green'}}>Screen1</h1>
       <DataTable
+        style={{backgroundColor:'blue'}}
         value={products}
         tableStyle={{ minWidth: '50rem' }}
         sortField="Code"

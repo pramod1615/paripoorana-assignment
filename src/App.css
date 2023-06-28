@@ -4,3 +4,13 @@
     justify-content: center;
     
 }
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+}

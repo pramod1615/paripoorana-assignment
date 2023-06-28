@@ -20,7 +20,7 @@ function Screen2() {
 
   return (
     <div className="card">
-      <h1>Screen2 - Sorting</h1>
+      <h1 style={{textAlign:'center',color:'green'}}>Screen2</h1>
       
       <DataTable
         value={products}
@@ -67,11 +67,12 @@ function Screen2() {
         ></Column>
       </DataTable>
       <button
+       style={{marginLeft:'600px'}}
         onClick={() => {
           window.location.reload();
         }}
       >
-        Refresh
+        Reset
       </button>
     </div>
   );
